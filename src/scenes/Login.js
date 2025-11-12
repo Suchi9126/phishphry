@@ -38,13 +38,16 @@ class Login extends Phaser.Scene {
         inputBox.placeholder = 'Agent Name...';
         inputBox.style.position = 'absolute';
         inputBox.style.left = '50%';
-        inputBox.style.top = '350px';
+        inputBox.style.top = '340px';
         inputBox.style.transform = 'translateX(-50%)';
-        inputBox.style.marginLeft = '-100px'; // Half of input width
-
-        inputBox.style.width = '200px';
-        inputBox.style.padding = '10px';
+        inputBox.style.width = '300px';
+        inputBox.style.padding = '12px';
         inputBox.style.fontSize = '18px';
+        inputBox.style.border = '2px solid #00ffff';
+        inputBox.style.borderRadius = '5px';
+        inputBox.style.backgroundColor = '#ffffff';
+        inputBox.style.color = '#000000';
+        inputBox.style.outline = 'none';
         document.body.appendChild(inputBox);
         this.inputBox = inputBox;
 
