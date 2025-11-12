@@ -6,7 +6,7 @@ const config = {
     height: 600,
     parent: 'game-container',
     backgroundColor: '#1a1a2e',
-    scene: [Login] // We'll add scenes here one by one
+    scene: [Login,AvatarSelect] // We'll add scenes here one by one
 };
 
 // Create the game instance
